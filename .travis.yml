@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - '12'
+branches:
+  only:
+    - master
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  on:
+    branch: master
+  api_key:
+    secure: Fg+b+DiFP1NXMeg3h/eFOxVtE6q5CmDmqwTx48tFOpsDr5zwBmlVZ9htDT1TslK9GHeX9DaFFd+VLAZJJNkC4BjcxNBITEmtyBZ0Q5U6AZy5mtwMa/RbbFQWLNAkH+zYW59R9vYrTyy6VIb2YEi70l58Erm/asMqLJavednJUxtn12r4ub+nO/Vl3ilQ2Mqi1S9W8sedWFixu7Z7ThToqw8n/04AY1vnKHT/65dchwCYnKa5H8bufLWUM8ALgkl/2/FJMsoELi0T/+Xk+2wjb+tAD4n0O9EOBIH1wVNdubez0Rv0fpkbZfqd4w07CXN5lbypG6B+pb6IJtFA8NS+kgahBys3VH9kgW3k4yrfcc0EkCBBD+KrSukUtFGphnNyag6e8HtsLOqSS+zqt5EHQQsF/jVlMP9APQ6GcGY8Hj1vkjnxB8G3enPnMCOXwhp6+XphXfrH7Ura/Rm5D/wy3B9dmoSrB54oI0EmKtlhJq4cV0wunmD6v0fH/Ne9L7XQObkr0N2UgNXRNkCsUl2XacjFMWP+xVFN7Q1xu+gjr2EEeVww7vYefOKDDAcz0P9Ae0nZtWxrUMZn71SMrbFf0BdNssttFSI/VsLGQMBnpyfq4k53YXh8Nxome65zYcJFw0jqifiMX9aPzS60aHnMzYXCBJ2pyKRWeXfkXD1xoio=
+  app: banking-nest-upc-heroku
+notifications:
+  email:
+    on_failure: change
+    on_success: change
