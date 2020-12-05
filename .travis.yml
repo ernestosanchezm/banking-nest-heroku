@@ -11,7 +11,7 @@ deploy:
     branch: master
   api_key:
     secure: TAMoUS664fZ+dtnnvit2rAIVJu8ZmgDr/X2jOHZATq8hqVTvxQgP+vBELBpQHIl5h3ildnqIz9ReYRwaGHTVpBhtn4yBWN6ofa33EYqmbe5ECMy+xfq3Tqxq+m7WnAyt63HvYPSgO7WcQUyYNEkFq3jtT602Ar1BK7q1E6iQgk1+tl9nrZbl3FSnRvBa2nsb4Cz41HySQzJTACqK+mFZyBhGtZ7VQKFh/yDM4WXl/i8X8HqObFiA8OQEGNI1a/QA4ABCPNQJ1/hmh8KTxavv5c12dGHg+ziSVx4YGEi8/7X9fwgfp9kgk5jl0h1RTke1y7bnw9JhZpuyOMfa1QQV9gsWA4vHB9NLbloJwThlbUYTIcvX06V7YgUfIC7Bzp8q/Mn6BPk7N1jA7IvmIlnjauR6rThb5wpq5wkRh2h06PSV2dzAENoRoBJr7VK2c5FZ4CEvKKLQOSfMULjwwDpQulvMdtaC7EUZzayGVWr2fqBpo6VsfrP2hoRNIa8tgz1wIL3cu1w4T1tBxY05xBQiuVdGotqLMBWNrPoHAK1yquFgCl519HsKyEY/q0OFhwUWC61Gzx7h54snTnOvRv9wUa/OrDjzK7qX5bb3xFhN8kZ2fa1+hryRy2UA8W1y8dzd7fHXffZlkazBJsKIHxD89YBK2yk9YlKEB0cuuceJBD4=
-  app: banking-nest-upc-heroku
+  app: banking-nest-upc-heroku-lab1
 notifications:
   email:
     on_failure: change
